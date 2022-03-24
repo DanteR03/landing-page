@@ -66,6 +66,26 @@ body {
   height: 200px;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.quote-author{
+  margin-left: auto;
+}
+
+.lower-main {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
 .logo-text {
   font-size: 24px;
 }
