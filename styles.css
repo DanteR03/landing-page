@@ -1,4 +1,8 @@
 body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
   font-family: Roboto, 'Times New Roman', sans-serif;
   display: flex;
   flex-direction: column;
@@ -7,10 +11,33 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2% 10%;
+}
+
+.header-top {
+  display: flex;
 }
 
 .header, .footer {
   background-color: #1F2937;
+}
+
+.logo {
+  display: flex;
+}
+
+.hero-container{
+  display: flex;
+  margin: 5% auto;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .hero-main {
@@ -23,12 +50,37 @@ body {
   color: #E5E7EB
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.card-container {
+  display: flex;
+}
+
+.main-img {
+  width: 500px;
+  height: 200px;
+}
+
 .logo-text {
   font-size: 24px;
 }
 
 .hero-main, .logo-text{
   color: #F9FAF8;
+}
+
+.button {
+  max-width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
 }
 
 .button, .lower-main {
@@ -53,9 +105,11 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0 0 0 auto;
   display: flex;
 }
 
 a {
   text-decoration: none;
+  margin: 10px;
 }
