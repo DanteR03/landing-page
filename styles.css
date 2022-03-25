@@ -79,6 +79,15 @@ body {
 
 .lower-main {
   display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.lower-container {
+  display: flex;
+  gap: 100px;
+  padding: 50px 100px;
+  border-radius: 10px;
 }
 
 .footer {
@@ -103,7 +112,7 @@ body {
   font-weight: bold;
 }
 
-.button, .lower-main {
+.button, .lower-container {
   background-color: #3882F6;
 }
 
@@ -121,6 +130,11 @@ body {
 
 .main-header, .quote {
   Color: #1F2937
+}
+
+#lower-button {
+  border: 2px solid;
+  border-color: white;
 }
 
 ul {
