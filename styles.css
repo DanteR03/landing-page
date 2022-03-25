@@ -99,11 +99,12 @@ img.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 50px 100px;
 }
 
 .quote-author{
   margin-left: auto;
+  font-weight: bold;
 }
 
 .lower-main {
@@ -112,23 +113,37 @@ img.logo {
   padding: 50px;
 }
 
+.lower-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .lower-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 100px;
   padding: 50px 100px;
   border-radius: 10px;
 }
 
+.lower-main-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .footer {
   display: flex;
   justify-content: center;
+  padding: 15px;
 }
 
 .logo-text {
   font-size: 24px;
 }
 
-.hero-main, .logo-text, a{
+.hero-main, .logo-text, a, .lower-inner{
   color: #F9FAF8;
 }
 
