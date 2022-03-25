@@ -18,6 +18,7 @@ body {
 
 .header-top {
   display: flex;
+  align-items: center;
 }
 
 .header, .footer {
@@ -26,6 +27,14 @@ body {
 
 .logo {
   display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+img.logo {
+  max-width: 75px;
+  max-height: 75px;
+  border-radius: 50%;
 }
 
 .hero-container{
@@ -62,8 +71,8 @@ body {
 }
 
 .main-img {
-  width: 500px;
-  height: 200px;
+  max-width: 700px;
+  max-height: 300px;
 }
 
 .quote {
@@ -99,7 +108,7 @@ body {
   font-size: 24px;
 }
 
-.hero-main, .logo-text{
+.hero-main, .logo-text, a{
   color: #F9FAF8;
 }
 
